@@ -1,8 +1,16 @@
-# Twitter Clone! 
+# React + Vite
 
-Hey everyone! I hope you all enjoyed our React lecture. This week you will be creating a Twitter Clone! 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-￼![Twitter Clone](https://github.com/user-attachments/assets/b1c8bbdf-cd7f-4e25-be7d-596758f4470a)
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-In this project you will be practicing creating components, passing down props, conditional rendering, and using state! You do not need to add the functionality to create new tweets or comments, you simply need to display the tweets on the screen and have the ability to like and unlike the tweets. Good luck!
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
